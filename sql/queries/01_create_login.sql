@@ -1,3 +1,5 @@
-CREATE LOGIN luke WITH PASSWORD = '123456789'
+CREATE LOGIN de_pipeline_user WITH PASSWORD = '<STRONG_PASSWORD>';
+GO
 
-create user luke for login luke
+CREATE USER de_pipeline_user FOR LOGIN de_pipeline_user;
+GO
